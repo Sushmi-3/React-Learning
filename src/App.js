@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Functional from './components/Functional';
+import ClassComp from './components/ClassCom';
+import Hello from './components/Hello';
+import State from './components/State';
+import Counter from './components/Counter';
+import EventHanFunc from './components/EventHanFunc';
+import EventHandling from './components/EventHandling';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Functional name="Janet"></Functional>
+      <ClassComp></ClassComp>
+      <Hello></Hello>
+      <State></State>
+      <Counter></Counter>
+      <EventHanFunc></EventHanFunc>
+      <EventHandling></EventHandling>
     </div>
   );
 }
