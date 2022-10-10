@@ -7,7 +7,6 @@ import State from './components/State';
 import Counter from './components/Counter';
 import EventHanFunc from './components/EventHanFunc';
 import EventHandling from './components/EventHandling';
-import ComponentC from './components/ComponentC';
 function App() {
   return (
     <div className="App">
@@ -18,7 +17,6 @@ function App() {
       <Counter></Counter>
       <EventHanFunc></EventHanFunc>
       <EventHandling></EventHandling>
-      <ComponentC></ComponentC>
     </div>
   );
 }
